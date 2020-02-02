@@ -12,6 +12,6 @@ DDNS auto updater for `MyDNS.JP`. Servers using dynamic address can register and
         format: {MasterID}_{Password}
 
 3. Register `update.sh` to crontab.
-  - example: If you want update every 10 minutes...
+    - example: If you want update every 10 minutes...
 
-	*/10 * * * * /path_to/update.sh
+        */10 * * * * /path_to/update.sh
